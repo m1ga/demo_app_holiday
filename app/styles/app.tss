@@ -1,0 +1,17 @@
+"Label" : {
+  width: Ti.UI.SIZE,
+  height: Ti.UI.SIZE,
+  color: "#000",
+  touchEnabled: false
+}
+".icon" : {
+  font: {
+    fontFamily: "remixicon"
+  }
+}
+".title" : {
+  font: {
+    fontFamily: "baskerville",
+    fontSize: 20
+  }
+}

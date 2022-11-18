@@ -1,0 +1,66 @@
+"#btn_hamburger" : {
+  top: 0,
+  left: 0,
+  height: 50,
+  width: 50
+}
+"#lbl_hamburger" : {
+  font: {
+    fontSize: 30
+  }
+}
+"#lbl_title" : {
+  top: 15
+}
+"#view_user" : {
+  top: 5,
+  right: 10,
+  borderRadius: 20,
+  width: 40,
+  height: 40,
+  image: "/images/user1.jpg",
+  scalingMode: Ti.Media.IMAGE_SCALING_ASPECT_FILL
+}
+".menu" : {
+  height: 30,
+  width: Ti.UI.SIZE
+}
+"#scroll_content" : {
+  layout: "vertical",
+  top: 100,
+  bottom: 0,
+  width: Ti.UI.FILL,
+  scrollType: "vertical"
+}
+"#scroll_menu" : {
+  height: 30,
+  scrollType: "horizontal",
+  layout: "horizontal"
+}
+".menu_item" : {
+  left: 20,
+  right: 20
+}
+"#scroll_top" : {
+  left: 0,
+  top: 10,
+  clipViews: false,
+  padding: {
+    left: 30,
+    right: 100
+  },
+  height: 200
+}
+"#lbl_recommended" : {
+  left: 10,
+  top: 40
+}
+"#view_recommended" : {
+  top: 20,
+  layout: "horizontal"
+}
+"#lbl_menu1" : {
+  font: {
+    fontWeight: "bold"
+  }
+}

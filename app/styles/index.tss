@@ -1,0 +1,6 @@
+"TabGroup" : {
+	theme: "Theme.MyTheme",
+	style: Ti.UI.Android.TABS_STYLE_BOTTOM_NAVIGATION,
+	shiftMode: 2,
+	swipeable: false
+}

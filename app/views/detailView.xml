@@ -1,0 +1,25 @@
+<Alloy>
+	<Window>
+		<ActionBar id="actionbar" displayHomeAsUp="true" title="Details" onHomeIconItemSelected="onClickBack"/>
+
+		<ImageView id="img_header"/>
+
+		<ScrollView id="scroll">
+			<View id="view_content">
+				<Label text="Place 1" class="title" id="lbl_title"/>
+				<Label text="Place, Country" id="lbl_place"/>
+				<Label text="Description" class="title" id="lbl_description_title"/>
+				<Label
+					text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt."
+					id="lbl_description"/>
+
+				<View id="view_price">
+					<Label text="$300" id="lbl_price"/>
+					<View id="btn_buy">
+						<Label text="Book now" id="lbl_buy"/>
+					</View>
+				</View>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

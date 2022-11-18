@@ -1,0 +1,84 @@
+".container" : {}
+"#img_header" : {
+  image: "/images/img1.jpg",
+  height: 300,
+  width: Ti.UI.FILL,
+  scalingMode: Ti.Media.IMAGE_SCALING_ASPECT_FILL,
+  top: 0
+}
+"#view_content" : {
+  layout: "vertical",
+  height: Ti.UI.SIZE,
+  top: 250,
+  width: Ti.UI.FILL,
+  borderRadius: [
+    40, 40, 0, 0
+  ],
+  backgroundColor: "#fff"
+}
+"#scroll" : {
+  top: 20,
+  width: Ti.UI.FILL,
+  bottom: 0,
+  contentHeight: Ti.UI.SIZE,
+  scrollType: "vertical"
+}
+"#lbl_title" : {
+  top: 40,
+  left: 20,
+  font: {
+    fontWeight: "bold",
+    fontSize: 25
+  }
+}
+"#lbl_place" : {
+  left: 20,
+  font: {
+    fontWeight: "bold",
+    fontSize: 14
+  }
+}
+"#lbl_description_title" : {
+  left: 20,
+  top: 50,
+  font: {
+    fontWeight: "bold"
+  }
+}
+"#lbl_description" : {
+  left: 20,
+  top: 20,
+  font: {
+    fontSize: 16
+  }
+}
+"#view_price" : {
+  height: Ti.UI.SIZE,
+  width: Ti.UI.FILL,
+  top: 20,
+  bottom: 50
+}
+"#lbl_price" : {
+  left: 20,
+  font: {
+    fontWeight: "bold",
+    fontSize: 35
+  }
+}
+"#btn_buy" : {
+  backgroundColor: "#000",
+  borderRadius: 40,
+  height: Ti.UI.SIZE,
+  width: Ti.UI.SIZE,
+  right: 20
+}
+"#lbl_buy" : {
+  color: "#fff",
+  font: {
+    fontSize: 20
+  },
+  top: 10,
+  bottom: 10,
+  left: 20,
+  right: 20
+}

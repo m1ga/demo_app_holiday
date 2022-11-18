@@ -1,0 +1,12 @@
+<Alloy>
+	<View class="item" onClick="onClick">
+		<ImageView id="img1" class="bg_image"/>
+		<View class="item_content">
+			<Label text="Place 1" class="item_text"/>
+			<View id="view_stars"/>
+		</View>
+		<View class="btn_fav">
+			<Label text="\uEE0E" class="icon favIcon"/>
+		</View>
+	</View>
+</Alloy>

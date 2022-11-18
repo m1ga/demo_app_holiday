@@ -1,0 +1,42 @@
+".item" : {
+  width: Alloy.Globals.WIDTH_ITEM,
+  height: 200,
+  borderRadius: 20,
+  left: 10,
+  right: 10,
+  bottom: 20
+}
+".bg_image" : {
+  width: Ti.UI.FILL,
+  height: Ti.UI.FILL,
+  scalingMode: Ti.Media.IMAGE_SCALING_ASPECT_FILL
+}
+".item_content" : {
+  bottom: 0,
+  width: Ti.UI.FILL,
+  height: 50,
+  backgroundColor: "rgba(0,0,0,0.5)",
+  touchEnabled: false
+}
+".item_text" : {
+  color: "#fff",
+  left: 5,
+  top: 5
+}
+".btn_fav" : {
+  backgroundColor: "#fff",
+  right: 10,
+  width: 30,
+  height: 30,
+  borderRadius: 15,
+  bottom: 35
+}
+".favIcon" : {
+  color: "#999"
+}
+"#view_stars" : {
+  bottom: 8,
+  left: 5,
+  layout: "horizontal",
+  height: 15
+}

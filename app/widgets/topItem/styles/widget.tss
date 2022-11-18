@@ -1,0 +1,42 @@
+".lbl_place" : {
+  bottom: 50,
+  left: 10,
+  color: "#fff",
+  font: {
+    fontSize: 18
+  }
+}
+".top_bg" : {
+  height: 100,
+  bottom: 0,
+  width: Ti.UI.FILL,
+  backgroundGradient: {
+    type: 'linear',
+    colors: [
+      'rgba(0,0,0,0.75)', 'rgba(0,0,0,0.25)'
+    ],
+    startPoint: {
+      x: '0%',
+      y: '100%'
+    },
+    endPoint: {
+      x: '0%',
+      y: '0%'
+    },
+    backFillStart: true
+  }
+}
+".top_item" : {
+  height: 200,
+  backgroundColor: 'red',
+  borderRadius: 20,
+  right: 20,
+  left: 0
+}
+"#view_stars" : {
+  bottom: 25,
+  left: 10,
+  layout: "horizontal",
+  height: 15,
+  touchEnabled: false
+}

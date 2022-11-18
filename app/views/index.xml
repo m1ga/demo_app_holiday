@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup>
+		<Tab id="tab1">
+			<Require src="/home"/>
+		</Tab>
+		<Tab id="tab2">
+			<Window title=""></Window>
+		</Tab>
+		<Tab id="tab3">
+			<Window title=""></Window>
+		</Tab>
+		<Tab id="tab4">
+			<Window title=""></Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

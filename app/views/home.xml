@@ -1,0 +1,50 @@
+<Alloy>
+	<Window>
+		<View id="btn_hamburger">
+			<Label class="icon" text="\uEF32" id="lbl_hamburger"/>
+		</View>
+
+		<Label text="Discover" id="lbl_title" class="title"/>
+
+		<ImageView id="view_user"/>
+
+		<ScrollView id="scroll_content">
+
+			<ScrollView id="scroll_menu">
+				<View class="menu" id="menu1" onClick="onClickMenu">
+					<Label id="lbl_menu1" text="Popular" class="menu_item"/>
+				</View>
+				<View class="menu" id="menu2" onClick="onClickMenu">
+					<Label id="lbl_menu2" text="Featured" class="menu_item"/>
+				</View>
+				<View class="menu" id="menu3" onClick="onClickMenu">
+					<Label id="lbl_menu3" text="Most Visited" class="menu_item"/>
+				</View>
+				<View class="menu" id="menu4" onClick="onClickMenu">
+					<Label id="lbl_menu4" text="Europe" class="menu_item"/>
+				</View>
+				<View class="menu" id="menu5" onClick="onClickMenu">
+					<Label id="lbl_menu5" text="Asia" class="menu_item"/>
+				</View>
+			</ScrollView>
+
+			<ScrollableView id="scroll_top">
+				<Widget src="topItem" img="/images/img1.jpg" onClick="onClickItem" stars="4"/>
+				<Widget src="topItem" img="/images/img2.jpg" onClick="onClickItem" stars="3"/>
+				<Widget src="topItem" img="/images/img3.jpg" onClick="onClickItem" stars="4"/>
+				<Widget src="topItem" img="/images/img4.jpg" onClick="onClickItem" stars="4"/>
+			</ScrollableView>
+
+			<Label text="Recommended" id="lbl_recommended" class="title"/>
+
+			<View id="view_recommended">
+				<Widget src="recommendedItem" img="/images/img1.jpg" onClick="onClickItem" stars="4"/>
+				<Widget src="recommendedItem" img="/images/img2.jpg" onClick="onClickItem" stars="3"/>
+				<Widget src="recommendedItem" img="/images/img3.jpg" onClick="onClickItem" stars="4"/>
+				<Widget src="recommendedItem" img="/images/img4.jpg" onClick="onClickItem" stars="4"/>
+
+			</View>
+
+		</ScrollView>
+	</Window>
+</Alloy>

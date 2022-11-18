@@ -1,0 +1,14 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:ios": {},
+    "os:windows": {},
+    "dependencies": {
+        "recommendedItem": "1.0",
+        "topItem": "1.0"
+    },
+    "backbone": "1.4.0"
+}

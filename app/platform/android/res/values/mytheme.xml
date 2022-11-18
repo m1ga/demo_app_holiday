@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyTheme" parent="Theme.Titanium.Light.NoTitleBar">
+        <item name="colorPrimary">#c91326</item>
+        <item name="colorPrimaryDark">#fff</item>
+        <item name="colorAccent">#c91326</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:statusBarColor">#fff</item>
+        <item name="android:navigationBarColor">#fff</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

@@ -1,0 +1,7 @@
+<Alloy>
+	<View id="top1" class="top_item" onClick="onClick">
+		<View class="top_bg"/>
+		<Label text="Place 1" class="lbl_place"/>
+		<View id="view_stars"/>
+	</View>
+</Alloy>
